@@ -65,6 +65,9 @@ RUN conda install --quiet --yes \
     'r-htmltools=0.3*' \
     'r-sparklyr=0.9*' \
     'r-htmlwidgets=1.2*' \
+    'tensorflow=1.8*' \
+    'StrawberryFields=0.9*' \
+    'keras=2.2*' \
     'r-hexbin=1.27*' && \
     conda clean -tipsy && \
     fix-permissions $CONDA_DIR && \
